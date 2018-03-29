@@ -1,4 +1,16 @@
 <?php
+/**
+ * nocache
+ *
+ * Добавляет хеш файл в параметр для предотвращения кеширования обновленной статики
+ *
+ * @category    system
+ * @version     1.0.1
+ * @license     MIT
+ * @author      delphinpro
+ * @internal    @modx_category System
+ */
+
 $file = isset($file) ? $file : '';
 $cacheable = isset($cacheable) ? intval($cacheable) : 0; // 1 or 0
 
