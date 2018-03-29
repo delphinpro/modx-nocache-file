@@ -1,0 +1,1 @@
+# modx-nocache-file
